@@ -1,2 +1,2 @@
 # config-files
-Storage of my workflow setup
+Repo to store my configs 
