@@ -12,7 +12,7 @@ return {
   {
     "hrsh7th/nvim-cmp",
     config = function()
-      local cmp = require'cmp'
+      local cmp = require 'cmp'
       require("luasnip.loaders.from_vscode").lazy_load()
       cmp.setup({
         snippet = {
@@ -35,9 +35,18 @@ return {
         sources = cmp.config.sources({
           { name = 'luasnip' }, -- For luasnip users.
         }, {
-            { name = 'buffer' },
-          })
+          { name = 'buffer' },
+        })
       })
     end,
   }
 }
+
+
+
+
+
+
+
+
+

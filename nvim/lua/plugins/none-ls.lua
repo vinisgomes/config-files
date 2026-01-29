@@ -15,7 +15,8 @@ return {
 
         -- javascript
         null_ls.builtins.formatting.prettier,
-        -- null_ls.builtins.diagnostics.eslint_d,
+        -- this line of code is deprecated, this is why is commented
+        -- null_ls.builtins.diagnostics.eslint_d, 
 
         -- python
         null_ls.builtins.formatting.black,

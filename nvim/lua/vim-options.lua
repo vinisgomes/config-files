@@ -8,4 +8,6 @@ vim.g.mapleader = " "
 -- "+y" yank
 -- "+p" paste
 vim.o.clipboard = "unnamedplus"
+-- Unhilight words
+vim.keymap.set('n', '<C-l>', ':noh<CR>', { silent = true })
 
